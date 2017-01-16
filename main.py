@@ -13,9 +13,9 @@ print '%s/%s/%s %s:%s:%s' % (now.day, now.month, now.year, now.hour, now.minute,
 print ""
 
 try:
-    print "| Username: " + getpass.getuser()
-    print "| Machine: " + platform.node()
-    print "| External IP: " + ip_finder.external_ip()
-    print "| Internal IP: " + ip_finder.internal_ip()
+    print "Username: " + getpass.getuser()
+    print "Machine: " + platform.node()
+    print "External IP: " + ip_finder.external_ip()
+    print "Internal IP: " + ip_finder.internal_ip()
 except:
     print "Something Went Wrong..."
